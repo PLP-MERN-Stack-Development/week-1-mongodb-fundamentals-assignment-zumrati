@@ -3,7 +3,6 @@
 // Import MongoDB client
 const { MongoClient } = require('mongodb');
 
-// Connection URI (replace with your MongoDB connection string if using Atlas)
 const uri = 'mongodb://localhost:27017';
 
 // Database and collection names
@@ -29,7 +28,8 @@ const books = [
     published_year: 1949,
     price: 10.99,
     in_stock: true,
-    pages: 328,
+    pages: 328,// Connection URI (replace with your MongoDB connection string if using Atlas)
+
     publisher: 'Secker & Warburg'
   },
   {
